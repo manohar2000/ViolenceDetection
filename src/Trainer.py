@@ -35,8 +35,8 @@ class Trainer:
 		self._appendNetActivationsToSummary()
 		self._summaryWriter = tf.summary.FileWriter(trainSettings.PATH_TO_SAVE_MODEL+"/train")
 
-	def __del__(self):
-		self._dataManager.Stop()
+	#def __del__(self):
+		#self._dataManager.Stop()
 
 	def SetMergedSummaryOp(self, allSummariesOp_):
 		self._summaryOp = allSummariesOp_
