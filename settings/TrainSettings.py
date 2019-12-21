@@ -19,7 +19,7 @@ UNROLLED_SIZE = 40
 #BATCH_SIZE = 40
 #UNROLLED_SIZE = 2
 
-PRETRAIN_MODEL_PATH_NAME = "/content/drive/My Drive/ckpt"
+PRETRAIN_MODEL_PATH_NAME = "/content/drive/My Drive/ckpt/ViolenceNet"
 #PRETRAIN_MODEL_PATH_NAME = "temp/G2D19_P2OF_ResHB_1LSTM_dataAug_expLR/save_epoch_14/ViolenceNet.ckpt"
 
 '''
